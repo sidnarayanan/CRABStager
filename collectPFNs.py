@@ -91,6 +91,9 @@ for job in transferring:
   if job.pfn==None:
     # something failed
     continue
+  if 'failed' in job.pfn:
+    # not valid output
+    continue
   adddir = job.jid/1000
   outpath = '%s/%.4i/%s'%(args.outdir,adddir,job.pfn.split('/')[-1])
   if not os.path.exists(outpath):

@@ -1,4 +1,4 @@
-A simple tool to stage out output from CRAB3 that is stuck in 'transferring' state. Two environments are needed: one to catalog CRAB jobs (set up CMSSW and CRAB), and another to do gfal-copy (CMSSW interfers with the gfal libraries).
+A simple tool to stage out output from CRAB3 that is stuck in 'transferring' state. Two environments are needed: one to catalog CRAB jobs (set up CMSSW and CRAB), and another to do gfal-copy (CMSSW interferes with the gfal libraries).
 
 In the CMSSW environment:
 
